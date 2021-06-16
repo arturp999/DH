@@ -1,0 +1,37 @@
+nav{
+    border:1px solid brown;
+    width: 200px;
+    background:blue;
+    height: 8%;
+}
+
+.caixaladodireito{
+    display:flex;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+}
+
+section{
+    border:2px solid black;
+    margin:2px;
+    padding:2px;
+}
+
+footer{
+    text-align: center;
+    background-color: blue;
+    bottom:0;
+    left:0;
+    width: 100%;
+    position: fixed;
+}
+
+body{
+    margin-bottom: 20px;
+}

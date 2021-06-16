@@ -1,0 +1,49 @@
+body{
+    background-color:black
+}
+
+div{
+    padding:10px;
+    background-color:orangered;
+    border:solid 3px green;
+    font-size: 15px;
+}
+
+#inline-block div{
+    display:inline-block;
+    width:30%;
+}
+
+/*cores do titulos*/
+
+#inlineblockcor{
+    color:white;
+}
+#floatscor{
+    color:orange;
+}
+#flexboxcor{
+    color:yellow;
+    clear: both; /*isto serve para o titulo não ficar dentro da caixa do float*/
+}
+
+/*propriedade dos floats*/
+
+#float div{
+   float:left;
+    width:30%;
+}
+
+/*propriedados da flexbox*/
+
+#flexbox{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+   }
+
+#flexbox div{   
+    width: 30%;
+   }
+   

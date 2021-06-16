@@ -1,0 +1,25 @@
+nav{
+    float: left;
+    width: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    margin-right: 2px;
+}
+
+section{
+    border:2px solid black;
+    margin-bottom: 1px;
+}
+
+body{
+    margin-bottom: 25px;
+
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    bottom:0;
+    left:0;
+    width: 100%;
+    position: fixed;
+}

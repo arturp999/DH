@@ -1,0 +1,43 @@
+
+.social-media a{
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.social-media a:hover{
+    color:grey;
+}
+
+
+.cor-principal{
+    color:mediumaquamarine;
+}
+
+h1{
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+    color: white;
+}
+h2{
+    color: white;
+}
+
+.lobo-marinho img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-acerca{
+    color: white;
+}
+
+footer{
+    color: white;
+}
+
+.container{
+    align-self: center;
+}

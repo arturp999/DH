@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns:25% auto;
+    grid-template-rows: 1fr 1fr;
+    }
+
+
+nav{
+        grid-column-start: 1 / 2;
+        grid-row-start: 1 / 3;
+        background-color: aquamarine;
+       }
+
+.grid-coluna1{
+        grid-column-start: 2 / 3;
+        grid-row-start: 1 / 2;
+       }
